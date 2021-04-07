@@ -239,7 +239,7 @@ const projects = [
 
 const experience = [
   {
-    company: "Robert Bosch (contract)",
+    company: "Robert Bosch",
     title: "Software Engineer",
     years: "07/2020 - current",
     mainTech: ["ReactJS", "Hooks", "Axios"],
@@ -269,7 +269,7 @@ const experience = [
     ],
   },
   {
-    company: "IBM India Pvt Ltd (contract)",
+    company: "IBM India Pvt Ltd",
     title: "Software Engineer",
     years: "08/2018 - 04/2019",
     mainTech: ["Responsive"],
