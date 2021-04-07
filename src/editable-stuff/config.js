@@ -33,15 +33,11 @@ const mainBody = {
     },
     {
       image: "fa-codepen",
-      url: "https://mail.google.com/hashirshoaeb/",
-    },
-    {
-      image: "fa-hackerrank",
-      url: "https://mail.google.com/hashirshoaeb/",
+      url: "https://codepen.io/praveesh91",
     },
     {
       image: "fa-stack-overflow",
-      url: "https://mail.google.com/hashirshoaeb/",
+      url: "https://stackoverflow.com/users/5426201/praveesh-pavithran",
     },
   ],
 };
@@ -54,10 +50,8 @@ const about = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    ),
+    emoji("⚡ Integrate application front end with application business layer"),
+    emoji("⚡ Conduct Usability Testing to resolve interface problems"),
   ],
   softwareSkills: [
     {
@@ -124,15 +118,17 @@ const getInTouch = {
 
 const projects = [
   {
-    title: "Animal Shelter",
-    startDate: "2020",
+    title: "E-waste Managemnt",
+    startDate: "2016",
     description:
       "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
     images: [
-      "images/portfolio/animal-shelter/p1.jpg",
-      "images/portfolio/animal-shelter/p2.jpg",
+      "images/portfolio/animal-shelter/demo4.png",
+      "images/portfolio/animal-shelter/demo2.png",
+      "images/portfolio/animal-shelter/demo3.png",
+      "images/portfolio/animal-shelter/demo1.png",
     ],
-    url: "",
+    url: "https://main.d31ttz1ari6y6f.amplifyapp.com/",
     technologies: [
       {
         class: "devicon-angularjs-plain",
@@ -149,15 +145,16 @@ const projects = [
     ],
   },
   {
-    title: "Photography",
-    startDate: "2018",
+    title: "Parking Management",
+    startDate: "2020",
     description:
       "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
     images: [
-      "images/portfolio/photography/p1.jpg",
-      "images/portfolio/photography/p2.jpg",
+      "images/portfolio/photography/demo2.jpg",
+      "images/portfolio/photography/demo1.png",
+      "images/portfolio/photography/demo3.jpg",
     ],
-    url: "https://github.com",
+    url: "https://master.d33iiktbeebmnt.amplifyapp.com/",
     technologies: [
       {
         class: "devicon-react-original",
@@ -170,15 +167,59 @@ const projects = [
     ],
   },
   {
-    title: "3D Object Viewer",
-    startDate: "2015",
+    title: "Quiz App",
+    startDate: "2020",
+    description:
+      "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+    images: [
+      "images/portfolio/quiz-app/demo1.jpg",
+      "images/portfolio/quiz-app/demo2.jpg",
+      "images/portfolio/quiz-app/demo3.jpg",
+    ],
+    url: "https://master.d3ezzvdpu3szgl.amplifyapp.com/",
+    technologies: [
+      {
+        class: "devicon-react-original",
+        name: "React",
+      },
+      {
+        class: "devicon-javascript-plain",
+        name: "JavaScript",
+      },
+    ],
+  },
+  {
+    title: "User Directory",
+    startDate: "2020",
+    description:
+      "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+    images: [
+      "images/portfolio/user-directory/demo1.png",
+      "images/portfolio/user-directory/demo2.png",
+    ],
+    url: "https://master.d2m6ws5ulckit0.amplifyapp.com/one",
+    technologies: [
+      {
+        class: "devicon-react-original",
+        name: "React",
+      },
+      {
+        class: "devicon-javascript-plain",
+        name: "JavaScript",
+      },
+    ],
+  },
+  {
+    title: "Corporate Website",
+    startDate: "2019",
     description:
       "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
     images: [
-      "images/portfolio/adventure/p1.jpg",
-      "images/portfolio/adventure/p2.jpg",
+      "images/portfolio/adventure/demo3.jpg",
+      "images/portfolio/adventure/demo1.png",
+      "images/portfolio/adventure/demo2.jpg",
     ],
-    url: "https://github.com",
+    url: "https://master.d39vzl9oqgwjit.amplifyapp.com/",
     technologies: [
       {
         class: "devicon-angularjs-plain",

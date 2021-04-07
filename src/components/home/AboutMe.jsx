@@ -46,7 +46,9 @@ const AboutMe = ({ heading, message, link }) => {
           <Fade right duration={1000}>
             <div className="col-lg-7">
               <h2 className="display-4 mb-5 text-center">{heading}</h2>
-              <p className="lead text-center">{message}</p>
+              {message.map((e) => (
+                <p class="lead">{e}</p>
+              ))}
             </div>
           </Fade>
         </div>

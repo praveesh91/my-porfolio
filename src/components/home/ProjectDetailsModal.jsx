@@ -46,7 +46,7 @@ class ProjectDetailsModal extends Component {
         centered
         className="modal-inside">
         <span onClick={this.props.onHide} className="modal-close">
-          <i className="fas fa-times fa-3x close-icon"></i>
+          <i className="fas fa-times fa-2x close-icon"></i>
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
