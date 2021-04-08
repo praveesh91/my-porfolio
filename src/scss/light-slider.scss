@@ -112,7 +112,7 @@ $content-background-color: #d7caaa;
   &__content {
     @extend %fill-parent;
     background-color: var(--content-background-color);
-    overflow: hidden;
+    overflow-y: scroll;
     display: flex;
     align-items: center;
     justify-content: center;

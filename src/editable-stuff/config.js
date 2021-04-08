@@ -112,16 +112,96 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Front-end Developer opportunities! If you know of any positions available, if you have any questions, please feel free to reach me out at",
   email: "praveesh91@gmail.com",
 };
 
 const projects = [
   {
+    title: "NCA Portal",
+    startDate: "2021",
+    description:
+      "Web interface build purely in HTML5, CSS3, and Bootstrap components.",
+    images: [
+      "images/portfolio/NCA/demo2.png",
+      "images/portfolio/NCA/demo1.png",
+      "images/portfolio/NCA/demo4.png",
+      "images/portfolio/NCA/demo3.png",
+      "images/portfolio/NCA/demo5.png",
+    ],
+    url: " ",
+    technologies: [
+      {
+        class: "fab fa-react",
+        name: "React",
+      },
+      {
+        class: "fab fa-js",
+        name: "JavaScript",
+      },
+      {
+        class: "fab fa-jenkins",
+        name: "Jenkins",
+      },
+      {
+        class: "fab fa-docker",
+        name: "Docker",
+      },
+      {
+        class: " fa-js",
+        name: "Typescript",
+      },
+      {
+        class: " fa-js",
+        name: "Swagger",
+      },
+    ],
+  },
+  {
+    title: "STORE",
+    startDate: "2021",
+    description:
+      "A product inventory for the client to showcase their wide range of products to the users (organisarions). The user could subscribe to various plans provided by the client for those products.",
+    images: [
+      "images/portfolio/store/demo2.png",
+      "images/portfolio/store/demo1.png",
+      "images/portfolio/store/demo4.png",
+      "images/portfolio/store/demo3.png",
+      "images/portfolio/store/demo5.png",
+    ],
+    url: "",
+    technologies: [
+      {
+        class: "fab fa-react",
+        name: "React",
+      },
+      {
+        class: "fab fa-js",
+        name: "JavaScript",
+      },
+      {
+        class: "fab fa-jenkins",
+        name: "Jenkins",
+      },
+      {
+        class: "fab fa-docker",
+        name: "Docker",
+      },
+      {
+        class: " fa-js",
+        name: "Typescript",
+      },
+      {
+        class: " fa-js",
+        name: "Swagger",
+      },
+    ],
+  },
+  {
     title: "E-waste Managemnt",
     startDate: "2016",
     description:
-      "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "Web interface build purely in HTML5, CSS3, and Bootstrap components.",
     images: [
       "images/portfolio/animal-shelter/demo4.png",
       "images/portfolio/animal-shelter/demo2.png",
@@ -131,16 +211,16 @@ const projects = [
     url: "https://main.d31ttz1ari6y6f.amplifyapp.com/",
     technologies: [
       {
-        class: "devicon-angularjs-plain",
-        name: "Angular",
+        class: "fab fa-html5",
+        name: "HTML",
       },
       {
-        class: "devicon-typescript-plain",
-        name: "TypeScript",
+        class: "fab fa-css3",
+        name: "CSS3",
       },
       {
-        class: "devicon-csharp-plain",
-        name: "C#",
+        class: "fab fa-js",
+        name: "Javascript",
       },
     ],
   },
@@ -148,7 +228,7 @@ const projects = [
     title: "Parking Management",
     startDate: "2020",
     description:
-      "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "Parking Solution admin which keeps track of the parking data of a parking provider. Fetch live updated data from the API's. Build using react and material UI",
     images: [
       "images/portfolio/photography/demo2.jpg",
       "images/portfolio/photography/demo1.png",
@@ -157,11 +237,11 @@ const projects = [
     url: "https://master.d33iiktbeebmnt.amplifyapp.com/",
     technologies: [
       {
-        class: "devicon-react-original",
+        class: "fab fa-react",
         name: "React",
       },
       {
-        class: "devicon-javascript-plain",
+        class: "fab fa-js",
         name: "JavaScript",
       },
     ],
@@ -170,7 +250,7 @@ const projects = [
     title: "Quiz App",
     startDate: "2020",
     description:
-      "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "This is one of the task website which I created during my hiring process",
     images: [
       "images/portfolio/quiz-app/demo1.jpg",
       "images/portfolio/quiz-app/demo2.jpg",
@@ -179,11 +259,11 @@ const projects = [
     url: "https://master.d3ezzvdpu3szgl.amplifyapp.com/",
     technologies: [
       {
-        class: "devicon-react-original",
+        class: "fab fa-react",
         name: "React",
       },
       {
-        class: "devicon-javascript-plain",
+        class: "fab fa-js",
         name: "JavaScript",
       },
     ],
@@ -192,7 +272,7 @@ const projects = [
     title: "User Directory",
     startDate: "2020",
     description:
-      "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "This is one of the task website which I created during my hiring process",
     images: [
       "images/portfolio/user-directory/demo1.png",
       "images/portfolio/user-directory/demo2.png",
@@ -200,11 +280,11 @@ const projects = [
     url: "https://master.d2m6ws5ulckit0.amplifyapp.com/one",
     technologies: [
       {
-        class: "devicon-react-original",
+        class: "fab fa-react",
         name: "React",
       },
       {
-        class: "devicon-javascript-plain",
+        class: "fab fa-js",
         name: "JavaScript",
       },
     ],
@@ -213,7 +293,7 @@ const projects = [
     title: "Corporate Website",
     startDate: "2019",
     description:
-      "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "This is one of the task website which I created during my hiring process",
     images: [
       "images/portfolio/adventure/demo3.jpg",
       "images/portfolio/adventure/demo1.png",
@@ -222,16 +302,16 @@ const projects = [
     url: "https://master.d39vzl9oqgwjit.amplifyapp.com/",
     technologies: [
       {
-        class: "devicon-angularjs-plain",
-        name: "Angular",
+        class: "fab fa-html5",
+        name: "HTML",
       },
       {
-        class: "devicon-typescript-plain",
-        name: "TypeScript",
+        class: "fab fa-css3",
+        name: "CSS3",
       },
       {
-        class: "devicon-csharp-plain",
-        name: "C#",
+        class: "fab fa-js",
+        name: "Javascript",
       },
     ],
   },
