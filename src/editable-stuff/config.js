@@ -167,7 +167,6 @@ const projects = [
       "images/portfolio/store/demo1.png",
       "images/portfolio/store/demo4.png",
       "images/portfolio/store/demo3.png",
-      "images/portfolio/store/demo5.png",
     ],
     url: "",
     technologies: [
@@ -197,33 +196,7 @@ const projects = [
       },
     ],
   },
-  {
-    title: "E-waste Managemnt",
-    startDate: "2016",
-    description:
-      "Web interface build purely in HTML5, CSS3, and Bootstrap components.",
-    images: [
-      "images/portfolio/animal-shelter/demo4.png",
-      "images/portfolio/animal-shelter/demo2.png",
-      "images/portfolio/animal-shelter/demo3.png",
-      "images/portfolio/animal-shelter/demo1.png",
-    ],
-    url: "https://main.d31ttz1ari6y6f.amplifyapp.com/",
-    technologies: [
-      {
-        class: "fab fa-html5",
-        name: "HTML",
-      },
-      {
-        class: "fab fa-css3",
-        name: "CSS3",
-      },
-      {
-        class: "fab fa-js",
-        name: "Javascript",
-      },
-    ],
-  },
+
   {
     title: "Parking Management",
     startDate: "2020",
@@ -300,6 +273,60 @@ const projects = [
       "images/portfolio/adventure/demo2.jpg",
     ],
     url: "https://master.d39vzl9oqgwjit.amplifyapp.com/",
+    technologies: [
+      {
+        class: "fab fa-html5",
+        name: "HTML",
+      },
+      {
+        class: "fab fa-css3",
+        name: "CSS3",
+      },
+      {
+        class: "fab fa-js",
+        name: "Javascript",
+      },
+    ],
+  },
+  {
+    title: "Online labs",
+    startDate: "2016",
+    description:
+      "The OLabs is based on the idea that lab experiments can be taught using the Internet, more efficiently and less expensively. The labs can also be made available to students with no access to physical labs or where equipment is not available owing to being scarce or costly.",
+    images: [
+      "images/portfolio/olabs/demo3.png",
+      "images/portfolio/olabs/demo2.png",
+      "images/portfolio/olabs/demo1.png",
+      "images/portfolio/olabs/demo4.png",
+    ],
+    url: "http://www.olabs.edu.in/",
+    technologies: [
+      {
+        class: "fab fa-html5",
+        name: "HTML",
+      },
+      {
+        class: "fab fa-css3",
+        name: "CSS3",
+      },
+      {
+        class: "fab fa-js",
+        name: "Javascript",
+      },
+    ],
+  },
+  {
+    title: "E-waste Managemnt",
+    startDate: "2016",
+    description:
+      "Web interface build purely in HTML5, CSS3, and Bootstrap components.",
+    images: [
+      "images/portfolio/animal-shelter/demo4.png",
+      "images/portfolio/animal-shelter/demo2.png",
+      "images/portfolio/animal-shelter/demo3.png",
+      "images/portfolio/animal-shelter/demo1.png",
+    ],
+    url: "https://main.d31ttz1ari6y6f.amplifyapp.com/",
     technologies: [
       {
         class: "fab fa-html5",
