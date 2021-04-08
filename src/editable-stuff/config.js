@@ -16,7 +16,7 @@ const mainBody = {
     "A passionate Frontend Developer 🚀 having an experience of building Web and Mobile applications with JavaScript and Reactjs"
   ),
   resume:
-    "https://drive.google.com/file/d/1hyy-F4sNux0eCn1CJqb73Eov7rojmctD/view?usp=sharing",
+    "https://drive.google.com/file/d/1-SzM8vVCw7P5BVasRAiGFf3xpSzNSxu1/view?usp=sharing",
   icons: [
     {
       image: "fa-github",
