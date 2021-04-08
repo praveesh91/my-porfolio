@@ -1,7 +1,5 @@
-// import './SoftwareSkill.css';
 import React from 'react';
-
-// import { skillsSection } from '../../portfolio';
+import { Fade, Slide } from 'react-reveal';
 
 export default function SoftwareSkill(props) {
   return (
@@ -11,13 +9,15 @@ export default function SoftwareSkill(props) {
         <ul className="dev-icons">
           {props.skillsSection.map((skills, i) => {
             return (
-              <li
-                key={i}
-                className="software-skill-inline"
-                name={skills.skillName}>
-                <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
-              </li>
+              <Fade right duration={1000}>
+                <li
+                  key={i}
+                  className="software-skill-inline"
+                  name={skills.skillName}>
+                  <i className={skills.fontAwesomeClassname}></i>
+                  <p>{skills.skillName}</p>
+                </li>
+              </Fade>
             );
           })}
         </ul>

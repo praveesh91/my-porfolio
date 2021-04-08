@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Fade, Slide } from 'react-reveal';
 
 import ProjectDetailsModal from './ProjectDetailsModal';
 
@@ -22,32 +23,36 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         console.log(projects.images[0]);
         return (
-          <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
-            style={{ cursor: "pointer" }}>
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    height="230"
-                    style={{
-                      marginBottom: 0,
-                      paddingBottom: 0,
-                      position: "relative",
-                    }}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
+          <Fade bottom duration={2000}>
+            <div
+              className="col-sm-12 col-md-6 col-lg-4"
+              key={projects.title}
+              style={{ cursor: "pointer" }}>
+              <span className="portfolio-item d-block">
+                <div
+                  className="foto"
+                  onClick={() => detailsModalShow(projects)}>
+                  <div>
+                    <img
+                      src={projects.images[0]}
+                      alt="projectImages"
+                      height="230"
+                      style={{
+                        marginBottom: 0,
+                        paddingBottom: 0,
+                        position: "relative",
+                      }}
+                    />
+                    <span className="project-date">{projects.startDate}</span>
+                    <br />
+                    <p className="project-title-settings mt-3">
+                      {projects.title}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </span>
-          </div>
+              </span>
+            </div>
+          </Fade>
         );
       });
     }
