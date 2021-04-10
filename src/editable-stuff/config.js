@@ -32,6 +32,10 @@ const mainBody = {
       url: `mailto:praveesh91@gmail.com`,
     },
     {
+      image: "fab fa-dev",
+      url: `https://dev.to/praveesh91`,
+    },
+    {
       image: "fa-codepen",
       url: "https://codepen.io/praveesh91",
     },

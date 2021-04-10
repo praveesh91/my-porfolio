@@ -3,7 +3,6 @@ import React from 'react';
 import { Fade, Slide } from 'react-reveal';
 
 import codingPerson from '../../assets/lottie/codingPerson.json';
-import Pdf from '../../editable-stuff/resume.pdf';
 import DisplayLottie from './DisplayLottie';
 
 const pictureLinkRegex = new RegExp(
