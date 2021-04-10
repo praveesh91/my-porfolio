@@ -114,9 +114,9 @@ const about = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Contact Me",
   message:
-    "I'm currently looking for full-time Front-end Developer opportunities! If you know of any positions available, if you have any questions, please feel free to reach me out at",
+    "If you have any questions or anything which I can help you out with, please feel free to reach me out at",
   email: "praveesh91@gmail.com",
 };
 
