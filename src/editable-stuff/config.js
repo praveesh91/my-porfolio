@@ -1,4 +1,4 @@
-import emoji from 'react-easy-emoji';
+import emoji from "react-easy-emoji";
 
 // Navigation Bar SECTION
 const navBar = {
@@ -207,9 +207,9 @@ const projects = [
     description:
       "Parking Solution admin which keeps track of the parking data of a parking provider. Fetch live updated data from the API's. Build using react and material UI",
     images: [
-      "images/portfolio/photography/demo2.jpg",
-      "images/portfolio/photography/demo1.png",
-      "images/portfolio/photography/demo3.jpg",
+      "images/portfolio/parking/demo2.jpg",
+      "images/portfolio/parking/demo1.png",
+      "images/portfolio/parking/demo3.jpg",
     ],
     url: "https://master.d33iiktbeebmnt.amplifyapp.com/",
     technologies: [
@@ -267,14 +267,37 @@ const projects = [
     ],
   },
   {
+    title: "Banking Website",
+    startDate: "2020",
+    description:
+      "This is one of the website created while learning the various concepts of Javacsript",
+    images: ["images/portfolio/banking/demo1.png"],
+    images: ["images/portfolio/banking/demo2.png"],
+    url: "https://festive-hypatia-120fbb.netlify.app/",
+    technologies: [
+      {
+        class: "fab fa-html5",
+        name: "HTML",
+      },
+      {
+        class: "fab fa-css3",
+        name: "CSS3",
+      },
+      {
+        class: "fab fa-js",
+        name: "Javascript",
+      },
+    ],
+  },
+  {
     title: "Corporate Website",
     startDate: "2019",
     description:
       "This is one of the task website which I created during my hiring process",
     images: [
-      "images/portfolio/adventure/demo3.jpg",
-      "images/portfolio/adventure/demo1.png",
-      "images/portfolio/adventure/demo2.jpg",
+      "images/portfolio/corporate/demo3.jpg",
+      "images/portfolio/corporate/demo1.png",
+      "images/portfolio/corporate/demo2.jpg",
     ],
     url: "https://master.d39vzl9oqgwjit.amplifyapp.com/",
     technologies: [
@@ -325,10 +348,10 @@ const projects = [
     description:
       "Web interface build purely in HTML5, CSS3, and Bootstrap components.",
     images: [
-      "images/portfolio/animal-shelter/demo4.png",
-      "images/portfolio/animal-shelter/demo2.png",
-      "images/portfolio/animal-shelter/demo3.png",
-      "images/portfolio/animal-shelter/demo1.png",
+      "images/portfolio/wasteManagement/demo4.png",
+      "images/portfolio/wasteManagement/demo2.png",
+      "images/portfolio/wasteManagement/demo3.png",
+      "images/portfolio/wasteManagement/demo1.png",
     ],
     url: "https://main.d31ttz1ari6y6f.amplifyapp.com/",
     technologies: [
