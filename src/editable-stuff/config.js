@@ -54,7 +54,7 @@ const about = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Integrate application front end with application business layer"),
+    emoji("⚡ Integrate front end with application business layer"),
     emoji("⚡ Conduct Usability Testing to resolve interface problems"),
   ],
   softwareSkills: [
@@ -67,16 +67,8 @@ const about = {
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "Bitbucket",
-      fontAwesomeClassname: "fab fa-bitbucket",
-    },
-    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git",
-    },
-    {
-      skillName: "JIRA",
-      fontAwesomeClassname: "fab fa-jira",
     },
     {
       skillName: "html-5",
