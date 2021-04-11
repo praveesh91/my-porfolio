@@ -21,7 +21,6 @@ class Projects extends Component {
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
-        console.log(projects.images[0]);
         return (
           <Fade bottom duration={2000}>
             <div

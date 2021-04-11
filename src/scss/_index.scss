@@ -287,21 +287,29 @@ code {
   text-align: left !important;
   padding: 5px 8px 5px 8px !important;
   vertical-align: baseline;
-  background-color: #919191 !important;
+  background-color: rgb(16, 142, 233);
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
   color: white;
   font-weight: lighter !important;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle {
+  color: gray;
+}
 .experience-badge {
   font-size: 11px !important;
   text-align: left !important;
   padding: 5px 8px 5px 8px !important;
   vertical-align: baseline;
-  background-color: #b5babd !important;
   color: black;
   font-weight: lighter !important;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: 1px solid #d9d9d9;
+  color: #531dab;
+  background: #f9f0ff;
+  border-color: #d3adf7;
 }
 
 .vertical-timeline-element-date {

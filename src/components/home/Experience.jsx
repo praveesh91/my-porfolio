@@ -7,6 +7,8 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 
+import backGroundImage from '../../assets/images/cool-background.png';
+
 class Experience extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
@@ -64,7 +66,7 @@ class Experience extends Component {
       <section
         id="experiance"
         className="pb-5"
-        style={{ backgroundColor: "#93a1ea" }}>
+        style={{ background: `url(${backGroundImage})` }}>
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>

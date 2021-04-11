@@ -31,12 +31,7 @@ const Home = React.forwardRef((props, ref) => {
         resume={mainBody.resume}
       />
       {about.show && (
-        <AboutMe
-          heading={about.heading}
-          message={about.message}
-          link={about.imageLink}
-          imgSize={about.imageSize}
-        />
+        <AboutMe heading={about.heading} message={about.message} />
       )}
       <SoftwareSkill skillsSection={about.softwareSkills} />
       <Projects resumeProjects={projects} resumeBasicInfo={projects} />
