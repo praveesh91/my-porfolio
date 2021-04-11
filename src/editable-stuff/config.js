@@ -13,7 +13,7 @@ const mainBody = {
   lastName: "Pavithran",
   message: " Frontend Developer",
   subTitle: emoji(
-    "A passionate Frontend Developer 🚀 having an experience of building Web and Mobile applications with JavaScript and Reactjs"
+    "A passionate Frontend Developer 🚀 experienced in building Web and Mobile applications with JavaScript and Reactjs"
   ),
   resume:
     "https://drive.google.com/file/d/1-SzM8vVCw7P5BVasRAiGFf3xpSzNSxu1/view?usp=sharing",
@@ -117,7 +117,7 @@ const projects = [
     title: "NCA Portal",
     startDate: "2021",
     description:
-      "Web interface build purely in HTML5, CSS3, and Bootstrap components.",
+      "Web interface build for the client to manage and create various cyber security regulations. This is build with React and AntD, involves integrating backend API built with Java.",
     images: [
       "images/portfolio/NCA/demo2.png",
       "images/portfolio/NCA/demo1.png",
@@ -157,7 +157,7 @@ const projects = [
     title: "STORE",
     startDate: "2021",
     description:
-      "A product inventory for the client to showcase their wide range of products to the users (organisarions). The user could subscribe to various plans provided by the client for those products.",
+      "A product inventory for the client to showcase their wide range of products to the users (organisations). The user could subscribe to various plans provided by the client for those products. Tech stack involves ReactJs, Ant design and integration of backend API's",
     images: [
       "images/portfolio/store/demo2.png",
       "images/portfolio/store/demo1.png",
@@ -263,8 +263,10 @@ const projects = [
     startDate: "2020",
     description:
       "This is one of the website created while learning the various concepts of Javacsript",
-    images: ["images/portfolio/banking/demo1.png"],
-    images: ["images/portfolio/banking/demo2.png"],
+    images: [
+      "images/portfolio/banking/demo1.png",
+      "images/portfolio/banking/demo2.png",
+    ],
     url: "https://festive-hypatia-120fbb.netlify.app/",
     technologies: [
       {
