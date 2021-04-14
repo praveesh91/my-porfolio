@@ -19,15 +19,15 @@ const MainBody = React.forwardRef(
           className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0">
           <div id="stars"></div>
           <Container className="text-center">
-            <h1 ref={ref} className="display-3">
+            <h1 ref={ref} className="display-3 mt-4 mb-5">
               {title}
               <span className="wave-emoji">{emoji("👋")}</span>
             </h1>
-            <Typist className="lead typist" cursor={{ show: false }}>
+            <Typist className="lead typist mb-2" cursor={{ show: false }}>
               {" "}
               <h3>{message}</h3>
             </Typist>
-            <Typist className="lead typist p-3" cursor={{ show: false }}>
+            <Typist className="lead typist pb-3" cursor={{ show: false }}>
               {subTitle}
             </Typist>
             <div className="p-3">
@@ -40,14 +40,14 @@ const MainBody = React.forwardRef(
                   aria-label={`My ${icon.image.split("-")[1]}`}>
                   <i
                     className={`fab ${icon.image}  fa-3x socialicons`}
-                    style={{ paddingRight: "20px" }}
+                    style={{ paddingRight: "20px", marginTop: "20px" }}
                   />
                 </a>
               ))}
             </div>
-            <p className="p-5">
+            <p className="pt-4">
               <a
-                className="btn btn-outline-light btn-lg "
+                className="btn btn-outline-light btn-lg mt-3 "
                 style={{ marginRight: "5px" }}
                 href="#aboutme"
                 role="button"
@@ -55,7 +55,7 @@ const MainBody = React.forwardRef(
                 More about me
               </a>
               <a
-                className="btn btn-outline-light btn-lg"
+                className="btn btn-outline-light btn-lg mt-3"
                 href={resume}
                 target="_blank"
                 rel="noreferrer noopener"
