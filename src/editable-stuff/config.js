@@ -159,10 +159,10 @@ const projects = [
     description:
       "A product inventory for the client to showcase their wide range of products to the users (organisations). The user could subscribe to various plans provided by the client for those products. Tech stack involves ReactJs, Ant design and integration of backend API's",
     images: [
+      "images/portfolio/store/demo3.png",
       "images/portfolio/store/demo2.png",
       "images/portfolio/store/demo1.png",
       "images/portfolio/store/demo4.png",
-      "images/portfolio/store/demo3.png",
     ],
     url: "",
     technologies: [
