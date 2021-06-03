@@ -310,6 +310,24 @@ const projects = [
     ],
   },
   {
+    title: "Currency Converter",
+    startDate: "2021",
+    description:
+      "This is a task application which I created during my hiring process",
+    images: ["images/portfolio/currency_converter.gif"],
+    url: "https://main.d3vm5087pn2ig1.amplifyapp.com/",
+    technologies: [
+      {
+        class: "fab fa-react",
+        name: "React",
+      },
+      {
+        class: "fab fa-js",
+        name: "JavaScript",
+      },
+    ],
+  },
+  {
     title: "Online labs",
     startDate: "2016",
     description:
