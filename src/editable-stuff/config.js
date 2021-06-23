@@ -114,10 +114,10 @@ const getInTouch = {
 
 const projects = [
   {
-    title: "NCA Portal",
+    title: "Portal",
     startDate: "2021",
     description:
-      "Web interface build for the client to manage and create various cyber security regulations. This is build with React and AntD, involves integrating backend API built with Java.",
+      "Web interface build for the client to manage and create various regulations. This is build with React and AntD, involves integrating backend API built with Java.",
     images: [
       "images/portfolio/NCA/demo2.png",
       "images/portfolio/NCA/demo1.png",
