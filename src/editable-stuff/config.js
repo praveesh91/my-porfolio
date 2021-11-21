@@ -1,4 +1,4 @@
-import emoji from 'react-easy-emoji';
+import emoji from "react-easy-emoji";
 
 // Navigation Bar SECTION
 const navBar = {
@@ -216,6 +216,23 @@ const projects = [
     ],
   },
   {
+    title: "Dashboard",
+    startDate: "2020",
+    description: "Dashboard created with AntD and ReactJS",
+    images: ["images/portfolio/site/site.png"],
+    url: "https://master.d21h3qsh5st3dt.amplifyapp.com/dashboard",
+    technologies: [
+      {
+        class: "fab fa-react",
+        name: "React",
+      },
+      {
+        class: "fab fa-js",
+        name: "JavaScript",
+      },
+    ],
+  },
+  {
     title: "Quiz App",
     startDate: "2020",
     description:
@@ -237,27 +254,7 @@ const projects = [
       },
     ],
   },
-  {
-    title: "User Directory",
-    startDate: "2020",
-    description:
-      "This is one of the task website which I created during my hiring process",
-    images: [
-      "images/portfolio/user-directory/demo1.png",
-      "images/portfolio/user-directory/demo2.png",
-    ],
-    url: "https://master.d2m6ws5ulckit0.amplifyapp.com/one",
-    technologies: [
-      {
-        class: "fab fa-react",
-        name: "React",
-      },
-      {
-        class: "fab fa-js",
-        name: "JavaScript",
-      },
-    ],
-  },
+
   {
     title: "Banking Website",
     startDate: "2020",
@@ -309,24 +306,7 @@ const projects = [
       },
     ],
   },
-  {
-    title: "Currency Converter",
-    startDate: "2021",
-    description:
-      "This is a task application which I created during my hiring process",
-    images: ["images/portfolio/currency_converter.gif"],
-    url: "https://main.d3vm5087pn2ig1.amplifyapp.com/",
-    technologies: [
-      {
-        class: "fab fa-react",
-        name: "React",
-      },
-      {
-        class: "fab fa-js",
-        name: "JavaScript",
-      },
-    ],
-  },
+
   {
     title: "Online labs",
     startDate: "2016",
