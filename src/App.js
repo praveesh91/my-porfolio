@@ -1,14 +1,15 @@
-import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 
-import Footer from './components/Footer';
-import AboutMe from './components/home/AboutMe';
-import Experience from './components/home/Experience';
-import GetInTouch from './components/home/GetInTouch.jsx';
-import MainBody from './components/home/MainBody';
-import Projects from './components/home/Projects';
-import SoftwareSkill from './components/home/SoftwareSkill';
-import Navbar from './components/Navbar';
+import Footer from "./components/Footer";
+import AboutMe from "./components/home/AboutMe";
+import Experience from "./components/home/Experience";
+import GetInTouch from "./components/home/GetInTouch.jsx";
+import MainBody from "./components/home/MainBody";
+import Projects from "./components/home/Projects";
+import SoftwareSkill from "./components/home/SoftwareSkill";
+import Loading from "./components/loading/Loading";
+import Navbar from "./components/Navbar";
 import {
   about,
   experience,
@@ -16,7 +17,7 @@ import {
   mainBody,
   navBar,
   projects,
-} from './editable-stuff/config.js';
+} from "./editable-stuff/config.js";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -42,8 +43,19 @@ const Home = React.forwardRef((props, ref) => {
 
 const App = () => {
   const titleRef = React.useRef();
+  const [loading, setLoading] = useState(false);
 
-  return (
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+    return () => {};
+  }, []);
+
+  return loading ? (
+    <Loading />
+  ) : (
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
