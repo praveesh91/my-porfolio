@@ -349,7 +349,7 @@ code {
   transform: rotate(29deg);
 }
 .contact-form form {
-  padding: 10%;
+  padding: 10% 10% 3% 10%;
 }
 .contact-form form .row {
   margin-bottom: -7%;
@@ -361,10 +361,11 @@ code {
   color: #0062cc;
 }
 .contact-form .btnContact {
-  width: 40%;
+  width: 25%;
   border: none;
   border-radius: 1rem;
   padding: 1.5%;
+  margin-top: 5rem;
   background: #0062cc;
   font-weight: 600;
   color: #fff;

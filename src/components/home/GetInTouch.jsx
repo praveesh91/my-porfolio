@@ -61,14 +61,6 @@ const GetInTouch = ({ heading, message, email }) => {
                   placeholder="Your Phone Number *"
                 />
               </div>
-              <div class="form-group">
-                <input
-                  type="submit"
-                  name="btnSubmit"
-                  class="btnContact"
-                  value="Send"
-                />
-              </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
@@ -77,6 +69,19 @@ const GetInTouch = ({ heading, message, email }) => {
                   class="form-control"
                   placeholder="Your Message *"
                   style={{ width: "100%", height: "150px" }}></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <input
+                  type="submit"
+                  name="btnSubmit"
+                  class="btnContact"
+                  value="Send"
+                />
               </div>
             </div>
           </div>
