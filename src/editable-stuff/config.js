@@ -119,11 +119,11 @@ const projects = [
     description:
       "Web interface build for the client to manage and create various regulations. This is build with React and AntD, involves integrating backend API built with Java.",
     images: [
-      "images/portfolio/NCA/demo2.png",
-      "images/portfolio/NCA/demo1.png",
-      "images/portfolio/NCA/demo4.png",
-      "images/portfolio/NCA/demo3.png",
-      "images/portfolio/NCA/demo5.png",
+      "images/portfolio/NCA/demo2.jpg",
+      "images/portfolio/NCA/demo1.jpg",
+      "images/portfolio/NCA/demo4.jpg",
+      "images/portfolio/NCA/demo3.jpg",
+      "images/portfolio/NCA/demo5.jpg",
     ],
     url: " ",
     technologies: [
