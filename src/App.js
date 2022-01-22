@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-
 import Footer from "./components/Footer";
 import AboutMe from "./components/home/AboutMe";
 import Experience from "./components/home/Experience";
@@ -8,6 +7,7 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import MainBody from "./components/home/MainBody";
 import Projects from "./components/home/Projects";
 import SoftwareSkill from "./components/home/SoftwareSkill";
+import VisitorCount from "./components/home/VisitorCount";
 import Loading from "./components/loading/Loading";
 import Navbar from "./components/Navbar";
 import {
@@ -34,6 +34,7 @@ const Home = React.forwardRef((props, ref) => {
       {about.show && (
         <AboutMe heading={about.heading} message={about.message} />
       )}
+      <VisitorCount />
       <SoftwareSkill skillsSection={about.softwareSkills} />
       <Projects resumeProjects={projects} resumeBasicInfo={projects} />
       <Experience resumeExperience={experience} resumeBasicInfo={experience} />

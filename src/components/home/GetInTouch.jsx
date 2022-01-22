@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import emailjs from "emailjs-com";
 
 const GetInTouch = ({ heading, message, email }) => {
@@ -6,7 +6,7 @@ const GetInTouch = ({ heading, message, email }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(document.getElementsByClassName("form-control").value);
     emailjs
       .sendForm(
         "service_rxeeeny",
@@ -24,6 +24,10 @@ const GetInTouch = ({ heading, message, email }) => {
       );
     e.target.reset();
   };
+  useEffect(() => {
+    return () => {};
+  }, []);
+
   return (
     <section id="contact">
       <div class="container contact-form">
@@ -62,12 +66,20 @@ const GetInTouch = ({ heading, message, email }) => {
                 />
               </div>
               <div class="form-group">
-                <input
+                {/* <input
+                  id="sendButton"
                   type="submit"
                   name="btnSubmit"
                   class="btnContact"
                   value="Send"
-                />
+                /> */}
+                <button
+                  type="submit"
+                  name="btnSubmit"
+                  class="btnContact btn btn-primary"
+                  value="Send">
+                  Send
+                </button>
               </div>
             </div>
             <div class="col-md-6">

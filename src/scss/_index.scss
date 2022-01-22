@@ -336,6 +336,7 @@ code {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .contact-form .form-control {
   border-radius: 1rem;
 }
@@ -362,13 +363,10 @@ code {
 }
 .contact-form .btnContact {
   width: 40%;
-  border: none;
   border-radius: 1rem;
-  padding: 1.5%;
-  background: #0062cc;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
+}
+.btn-primary:disabled {
+  cursor: no-drop;
 }
 .btnContactSubmit {
   width: 50%;
