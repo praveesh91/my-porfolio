@@ -377,3 +377,15 @@ code {
   border: none;
   cursor: pointer;
 }
+@font-face {
+  font-family: sevenSegment;
+  src: url(../assets/font/Seven_Segment.ttf);
+}
+.count {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  padding: 5px;
+  font-family: sevenSegment;
+}

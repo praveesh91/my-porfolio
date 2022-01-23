@@ -8,19 +8,7 @@ function VisitorCount() {
       setCount(result.value);
     });
   }, []);
-  return (
-    <div
-      style={{
-        position: "fixed",
-        width: "40px!important",
-        bottom: "20px",
-        right: "20px",
-        zIndex: 999,
-        padding: "5px",
-      }}>
-      {`Visitor count ${count}`}
-    </div>
-  );
+  return <div class="count">{`Visitor count   ${count}`}</div>;
 }
 
 export default VisitorCount;
