@@ -34,7 +34,6 @@ const Home = React.forwardRef((props, ref) => {
       {about.show && (
         <AboutMe heading={about.heading} message={about.message} />
       )}
-      <VisitorCount />
       <SoftwareSkill skillsSection={about.softwareSkills} />
       <Projects resumeProjects={projects} resumeBasicInfo={projects} />
       <Experience resumeExperience={experience} resumeBasicInfo={experience} />
@@ -68,6 +67,7 @@ const App = () => {
             email={getInTouch.email}
           />
         )}
+        <VisitorCount />
       </Footer>
     </BrowserRouter>
   );
