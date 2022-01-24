@@ -93,10 +93,6 @@ const about = {
       fontAwesomeClassname: "fab fa-npm",
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker",
-    },
-    {
       skillName: "jenkins",
       fontAwesomeClassname: "fab fa-jenkins",
     },
