@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import emailjs from "emailjs-com";
+import rocketImage from "../../assets/images/rocket_contact.png";
 
 const GetInTouch = ({ heading, message, email }) => {
   const form = useRef();
@@ -32,10 +33,7 @@ const GetInTouch = ({ heading, message, email }) => {
     <section id="contact">
       <div class="container contact-form">
         <div class="contact-image">
-          <img
-            src="https://image.ibb.co/kUagtU/rocket_contact.png"
-            alt="rocket_contact"
-          />
+          <img src={rocketImage} alt="rocket_contact" />
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <h3>Drop me a Message</h3>
