@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import AboutMe from "./components/home/AboutMe";
+import Contact from "./components/home/Contact";
 import Experience from "./components/home/Experience";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import MainBody from "./components/home/MainBody";
@@ -66,6 +67,7 @@ const App = () => {
             message={getInTouch.message}
             email={getInTouch.email}
           />
+          // <Contact />
         )}
         <VisitorCount />
       </Footer>
