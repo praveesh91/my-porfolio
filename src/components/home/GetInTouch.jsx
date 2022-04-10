@@ -19,13 +19,7 @@ const GetInTouch = ({ heading, message, email }) => {
       [e.target.name]: e.target.value.trim(),
     });
   };
-  const alert = () => {
-    return (
-      <Alert severity="info">
-        This is an info alert — <strong>check it out!</strong>
-      </Alert>
-    );
-  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const form = document.getElementById("my_form");
