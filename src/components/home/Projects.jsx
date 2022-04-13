@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Fade, Slide } from 'react-reveal';
+import React, { Component } from "react";
+import { Fade, Slide } from "react-reveal";
 
-import ProjectDetailsModal from './ProjectDetailsModal';
+import ProjectDetailsModal from "./ProjectDetailsModal";
 
 class Projects extends Component {
   constructor(props) {
@@ -40,6 +40,7 @@ class Projects extends Component {
                         marginBottom: 0,
                         paddingBottom: 0,
                         position: "relative",
+                        objectFit: "cover",
                       }}
                     />
                     <span className="project-date">{projects.startDate}</span>
