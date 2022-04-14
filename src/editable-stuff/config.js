@@ -257,8 +257,8 @@ const projects = [
     description:
       "This is one of the website created while learning the various concepts of Javacsript",
     images: [
-      "images/portfolio/banking/demo1.png",
       "images/portfolio/banking/demo2.png",
+      "images/portfolio/banking/demo1.png",
     ],
     url: "https://festive-hypatia-120fbb.netlify.app/",
     technologies: [
