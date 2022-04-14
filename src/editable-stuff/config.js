@@ -195,8 +195,8 @@ const projects = [
     description:
       "Parking Solution admin which keeps track of the parking data of a parking provider. Fetch live updated data from the API's. Build using react and material UI",
     images: [
-      "images/portfolio/parking/demo2.jpg",
       "images/portfolio/parking/demo1.png",
+      "images/portfolio/parking/demo2.jpg",
       "images/portfolio/parking/demo3.jpg",
     ],
     url: "https://master.d33iiktbeebmnt.amplifyapp.com/",
